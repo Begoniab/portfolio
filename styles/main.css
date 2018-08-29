@@ -4,21 +4,47 @@ html {
  }
 
  body {
-     font-family: 'Nunito', sans-serif;
+    font-family: 'Anonymous Pro', monospace;
      color: rgb(29,21,16);
      min-height: 100%;
  }
+ h4{ font-family: 'Quicksand', sans-serif;
+      font-weight: lighter;
+      font-size: 50px;
+    }
+ h3{ font-family: 'Anonymous Pro',monospace;
+    color:white;
+    font-weight: lighter;
+  }
+ h5{ font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: lighter;
+  }
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Quicksand');
+}
 
  body.landing {
      background-color: rgb(255,255,255);
  }
  .hero-content {
-      font-family: 'Quicksand', sans-serif;
       position: relative;
       min-height: 600px;
       background-repeat: no-repeat;
-
   }
+p.brand{
+  padding-left: 4rem;
+}
+
+p.hello{
+  padding-left: 4rem;
+}
+
+.hero-title{
+  padding-left: 4rem;
+}
+
   .hero-content .hero-title {
      position: absolute;
      top: 40%;
@@ -27,28 +53,60 @@ html {
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
      width: 100%;
-     text-align: left;;
+     text-align: left;
      font-size: 4rem;
-     font-weight: 300;
      letter-spacing: 0.5rem;
-     text-shadow: 1px 1px 0px rgb(58,23,63);
+     text-shadow: none;
  }
- ...
+ h1{
+   font-weight: lighter;
+ }
+ i{color:rgba(163, 50, 11, 100); font-style: normal;text-shadow:none; font-family: 'Anonymous Pro', monospace;}
+ b{color:rgba(162, 197, 172, 100);font-style: normal;text-shadow:none}
+
+h4.work{
+  padding-left: 4rem;
+}
+
+ .hero-work {
+   height: 500px;
+   background:
+   url(../images/portfolio-storage-jumble.png) left center no-repeat,
+   url(../images/portfolio-mentor-me.png) right center no-repeat;
+   background-size: contain;
+ }
+
+h3.jumble{
+  padding-left: 4rem;
+}
+
+h3.mentor{
+  padding-left: 40rem;
+}
+
+h4.what{
+  padding-left: 4rem;
+  border-top: 100px;
+}
+
 .whatido {
     position: relative;
     display: table;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box; /* we'll explain this in a resource */
+    box-sizing: border-box;
 }
 
 .do {
+    background-color: rgba(163, 50, 11, 100);
     display: table-cell;
     position: relative;
+    height:400px;
     width: 33.3%;
-    padding: 2rem;
+    padding-top:200px;
     text-align: center;
+
 }
 
 .do .do-title {
@@ -62,3 +120,36 @@ html {
 .do-description{
     font-size: 1rem;
 }
+h4.say-hi{
+  padding-left:4rem;
+}
+
+.about-me{
+  background: url(../images/portfolio-photo.jpg) right no-repeat;
+  background-size: 400px 400px, cover;
+  background-position: right bottom;
+  height:400px;
+  width:auto;
+  background-color: rgba(162, 197, 172, 100);
+}
+h3.title{
+  font-size: 32px;
+  font-weight:lighter;
+  width: 450px;
+  padding-top:2rem;
+  padding-left: 4rem;
+}
+p.description {
+  height: 200px;
+  width: 200px;
+  padding-left:4rem;
+}
+
+.footer{
+  background-color: rgba(29, 21, 16, 100);
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  height: 150px;
+  padding-left: 4rem;
+  padding-top: 4rem;
+   }
