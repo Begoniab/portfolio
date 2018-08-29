@@ -1,0 +1,38 @@
+
+
+ .hero-content {
+     position: relative;
+     min-height: 600px;
+ }
+
+ .hero-content .hero-title {
+     position: absolute;
+     top: 40%;
+     -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+     transform: translateY(-50%);
+     width: 100%;
+     padding-left: 4rem;
+     text-align:left;
+ }
+
+ .whatido {
+     position: relative;
+     display: table;
+     width: 100%;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+ .do {
+     display: table-cell;
+     position: relative;
+     width: 33.3%;
+     padding-top: 120px;
+     text-align: center;
+ }
+
+ .do .do-title {
+     font-size: 1.25rem;
+ }

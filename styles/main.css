@@ -93,20 +93,16 @@ h4.what{
     position: relative;
     display: table;
     width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
+*, *::before, *::after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
 
 .do {
     background-color: rgba(163, 50, 11, 100);
-    display: table-cell;
-    position: relative;
     height:400px;
-    width: 33.3%;
-    padding-top:200px;
-    text-align: center;
-
 }
 
 .do .do-title {
@@ -153,3 +149,16 @@ p.description {
   padding-left: 4rem;
   padding-top: 4rem;
    }
+
+  .do-container {
+        margin: 0 auto;
+        max-width: 64rem;
+    }
+
+    @media (min-width: 640px) {
+        html { font-size: 112%; }
+    }
+
+    @media (min-width: 1024px) {
+        html { font-size: 120%; }
+    }
