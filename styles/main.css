@@ -97,15 +97,12 @@ html {
 }
 
   .hero-content .hero-title {
-     position: absolute;
-     top: 40%;
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
      width: 100%;
      text-align: left;
-     font-size: 4rem;
      letter-spacing: 0.5rem;
      text-shadow: none;
  }
@@ -215,18 +212,21 @@ h4.say-hi{
   width:auto;
   background-color: rgba(162, 197, 172, 100);
 }
-h3.title{
+.title{
   font-size: 32px;
   font-weight:lighter;
   width: 450px;
   padding-top:2rem;
   padding-left: 4rem;
 }
-p.description {
+.description, .learn-more{
+  font-size: 16px;
+  line-height: 1.4em;
   min-width: 350px;
   max-width:450px;
   padding-left:4rem;
 }
+
 
 .footer{
     background-color: rgba(29, 21, 16, 100);
