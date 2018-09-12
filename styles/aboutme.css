@@ -1,0 +1,34 @@
+
+section.story{
+  background-color:rgba(163,50,11,100);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-family: 'Nunito', sans-serif;
+  text-align:left;
+}
+
+h3{
+  font-size: 24px;
+  padding: 15px;
+  padding-top: 30px;
+
+}
+p, h3{
+  color: white;
+  padding-left: 4rem;
+  position: relative;
+}
+
+p{
+  padding: 15px;
+  padding-left: 4rem;
+  line-height: 1.4em;
+  padding-right: 3rem;
+  font-size: 16px;
+}
+
+.story, .photos{
+  width: 49%;
+  height: 600px;
+  display: inline-block;
+}
